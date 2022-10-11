@@ -6,7 +6,7 @@ ADD node_modules.tar.gz .
 COPY package.json .
 COPY package-lock.json .
 
-COPY /src .
+COPY ./src ./src
 
 EXPOSE 3001
 
